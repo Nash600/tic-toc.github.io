@@ -1,0 +1,110 @@
+body {
+    background-color: antiquewhite;
+    
+}
+h1 {
+    text-align: center;
+    color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #4b6985, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 5px;
+    font: 80px 'MisoRegular';
+    border-bottom: #4CAF50 2px solid;
+    
+}
+   
+.container {
+    
+    display: flex;
+    justify-content: center;
+    
+   /* margin-left: 33%;
+    margin-top: 2%;
+    border-top: solid 5px orange;
+    border-bottom: solid 5px orange;
+    width:615px;*/
+      
+}
+  
+  .flex-item {
+    background: rgb(109, 103, 102);
+    width: 200px;
+    height: 150px;
+    border-style: dashed;
+   border-color:antiquewhite;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+    text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+  }
+  .flex-item:hover {
+      background-color:rgb(236, 87, 94);
+  }
+    button {
+        background-color: burlywood; /* Green */
+        border: none;
+        color: white;
+        padding: 8px 13px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 23px;
+        font-size: 16px;
+        cursor: pointer;
+       
+      }
+      #x{
+        width: 120px;
+        height: 40px;
+        margin-right:70px;
+        font-size: 1.25em;
+    }
+    #o{
+        width: 120px;
+        height: 40px;
+        font-size: 1.25em;
+    }
+    #container{
+        text-align: center;
+    }
+      
+
+  .btn-x{
+    background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  
+  }
+
+  .btn-o {
+    
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+        
+      }
+
+#reset {
+    margin-left:842px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-top: 10px;
+    width:150px;
+    background-color:burlywood;
+    font-size: 1.25em;
+    color:blue;
+    
+
+}
+#hidden {
+    font-size: 2em;
+    text-align: center;
+    color: red;
+    font: 'MisoRegular';
+   
+
+}
+  
